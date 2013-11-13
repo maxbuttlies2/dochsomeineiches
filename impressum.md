@@ -1,3 +1,9 @@
+---
+layout: default
+title: Impressum
+---
+
+
 Angaben gemäß § 5 TMG:
 
 Maximilian Buttlies
