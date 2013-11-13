@@ -16,21 +16,7 @@ html
     					.doch Doch
     					.rest so meine ich es.
             main
-                | {% for post in paginator.posts %}
-                article
-                    header
-                        h2
-                            a href="{{ post.url }}"
-                                | {{ post.title }}
-                
-                    | {{ post.content }}
-                | {% endfor %}
-                
-                .pagination
-                    | {% if paginator.previous_page %}
-                        a.previous href="/page{{ paginator.previous_page }}" 
-                            | Previous
-                    | {% endif %}
+              | {{ content }}
                   
         footer
 			.about.clearfix
@@ -38,7 +24,7 @@ html
 					p Hey, ich bin Max, derzeit 21 Jahre alt und blogge hier seit Anfang 2010 eher unregelmäßig. Themen sind meistens Dinge, die mich nerven oder ich nicht für mich behalten will. Yeah. 
 					p &copy; 2010 - 2013 Maximilian Buttlies 
 					p
-					a href="/impressum" Impressum
+					a href="/impressum.html" Impressum
 
 				ul 
 					li

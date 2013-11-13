@@ -67,7 +67,7 @@ body{
 			background:#fff;
 			border:#ddd solid 1px;
 			width:400px;
-			margin:5px auto;
+			margin:10px auto 0;
     		header{
     			width:400px;
     			margin:25px auto;
@@ -83,10 +83,16 @@ body{
     				font-size:0.8em;
     			}
     		}
-			p,div{
+    		h2{
+    		    text-align:center;
+    		}
+			p,div,h3{
 				padding:10px 25px;
 				font-size:1em;
 				text-align:justify;
+				a{
+				    text-decoration:underline;
+				}
 			}
 			img{
 				width:400px;
@@ -101,6 +107,7 @@ footer{
 	border-top:1px solid #2980b9;
 	color:#fff;
 	padding:10px;
+	margin-top:25px;
 	a{
 		color:#fff;
 	}
