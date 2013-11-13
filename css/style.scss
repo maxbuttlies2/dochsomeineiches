@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Dosis', sans-serif;
+	color:#808080;
+	list-style:none;
+	text-decoration:none;
+}
+
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+body{
+	font-size:100%;
+	background:#fefefe;
+}
+.all{
+	width:400px;
+	margin:0 auto;
+	header.head{
+		width:150px;
+		float:left;
+		margin:0 0 0 -210px;
+		position:fixed;
+		h1{
+			width:100%;
+			background:#3498db;
+			border-radius:0 0 15px 100px;
+			color:#fff;
+			font-size:2em;
+			text-align:center;
+			padding:50px 25px 100px;
+			border:1px solid #2980b9;
+			border-top:none;
+			.doch{
+				font-size:1.5em;
+				color:#fff;
+				line-height:1em;
+			}
+			.rest{
+				color:#fff;
+				width:150px;
+				margin:0 auto;
+				font-size:1em;
+				line-height:1em;
+			}
+		}
+		
+
+	}
+	main{
+		float:left;
+		article{
+			background:#fff;
+			border:#ddd solid 1px;
+			width:400px;
+			margin:5px auto;
+    		header{
+    			width:400px;
+    			margin:25px auto;
+    			text-align:center;
+    			h2{
+    				font-size:2.5em;
+    				a{
+    				    color:#2980b9;
+    				}
+    			}
+    			.date{
+    				color:aaa;
+    				font-size:0.8em;
+    			}
+    		}
+			p,div{
+				padding:10px 25px;
+				font-size:1em;
+				text-align:justify;
+			}
+			img{
+				width:400px;
+				height:auto;
+			}
+		}
+
+	}
+}
+footer{
+	background:#3498db;
+	border-top:1px solid #2980b9;
+	color:#fff;
+	padding:10px;
+	a{
+		color:#fff;
+	}
+	.about{
+		width:400px;
+		margin:0 auto;	
+		section{
+			
+				padding:5px;
+				width:275px;
+				float:left;
+				text-align:left;
+			p{
+				color:#fff;
+			}
+		}
+		ul{
+			float:left;
+			width:100px;
+			li{
+				float:left;
+				padding:5px;
+				a{
+					font-size:35px;
+					color:#fff;
+					&:hover{
+						cursor:pointer;
+						color:#2980b9;
+					}
+				}
+			}
+
+		}
+
+
+	}
+}
